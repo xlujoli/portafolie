@@ -1,0 +1,146 @@
+/* Reseteo es estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #030712;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.personal-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px #2463eb;
+  transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  color: #2463eb;
+}
+
+.description {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.experience {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+h2 {
+  color: #2463eb;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #2463eb;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.experience-item {
+  background-color: #2f0086;
+  padding: 10px;
+  border-left: 4px solid #2463eb;
+}
+
+.experience-item:hover {
+  background-color: violet;
+}
+
+.contact {
+  width: 70%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2f0086;
+  color: white;
+}
+
+button {
+  background-color: #2463eb;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2f0086;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.tabla {
+  width: 80%;
+}
+
+.td,
+th {
+  border: 1px solid blue;
+}
